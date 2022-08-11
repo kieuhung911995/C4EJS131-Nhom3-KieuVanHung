@@ -1,0 +1,86 @@
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #fff;
+} 
+    .header{
+        width:100%;
+        height:75px;
+        position:fixed;
+        background-color: black;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 19px;
+        height: 75px;  
+               
+    }
+    div.header:hover{
+        cursor: pointer;
+    }
+        .header-logo{
+            padding-left: 15px;
+        }
+        .header-menu{
+            display:flex;
+            justify-content: space-between;
+            width: 33%;
+            padding-right: 15px;
+            
+        }
+        .box{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .log-sig{
+            display: flex;
+            justify-content: space-between;
+        }
+            .login{
+                display: flex;
+                justify-content: center;
+                width: 85px;
+                height: 45px;
+                background-color: #0080ff;
+                border-width: 1px;
+                border-color: royalblue;
+                border-style: solid;
+                align-items: center;
+                box-sizing: border-box;
+                margin-right: 10px;
+            }
+            .signup{
+                display: flex;
+                justify-content: center;
+                width: 95px;
+                height: 45px;
+                border-width: 1px;
+                border-color: #0080ff;
+                border-style: solid;
+                align-items: center;
+                box-sizing: border-box;
+               
+            }
+    
+    
+    .main{
+        display: flex;
+        height:100vh;
+        background: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+        .first-main{
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .second-main{
+            font-size: 2rem;
+            font-weight: 200;
+            color: black;
+        }
