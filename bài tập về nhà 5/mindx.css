@@ -1,86 +1,222 @@
-body{
-    margin:0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    line-height: 1.4;
-    color: #fff;
-} 
-    .header{
-        width:100%;
-        height:75px;
-        position:fixed;
-        background-color: black;
-        display:flex;
-        align-items: center;
-        justify-content: space-between;
-        font-size: 19px;
-        height: 75px;  
-               
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+}
+.header {
+  width: 100%;
+  height: 75px;
+  position: fixed;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 19px;
+  height: 75px;
+}
+div.header:hover {
+  cursor: pointer;
+}
+.header-logo {
+  padding-left: 15px;
+  text-decoration: none;
+  color: white;
+}
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  padding-right: 15px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.log-sig {
+  display: flex;
+  justify-content: space-between;
+}
+.login {
+  display: flex;
+  justify-content: center;
+  width: 85px;
+  height: 45px;
+  background-color: #0080ff;
+  border-width: 1px;
+  border-color: royalblue;
+  border-style: solid;
+  align-items: center;
+  box-sizing: border-box;
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+}
+.signup {
+  display: flex;
+  justify-content: center;
+  width: 95px;
+  height: 45px;
+  border-width: 1px;
+  border-color: #0080ff;
+  border-style: solid;
+  align-items: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: white;
+}
+#page1 {
+  height: 100vh;
+  background: linear-gradient(180deg, #ffffff 0%, #6284ff 50%, #ff0000 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-page1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+.second-page1 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: black;
+}
+#page2 {
+  height: 860px;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.first-page2 {
+  font-weight: 700px;
+  font-size: 45px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  height: fit-content;
+  width: fit-content;
+  border-bottom: 2px white solid;
+  display: flex;
+  align-items: center;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 850px;
+  height: 200px;
+}
+  .box2{
+    background: #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-right: 10px;
+  }
+    .img{
+      width: 100%;
+      object-fit: cover;
     }
-    div.header:hover{
-        cursor: pointer;
+    .p{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 25px;
+      color: white;
     }
-        .header-logo{
-            padding-left: 15px;
-        }
-        .header-menu{
-            display:flex;
-            justify-content: space-between;
-            width: 33%;
-            padding-right: 15px;
-            
-        }
-        .box{
-            display:flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .log-sig{
-            display: flex;
-            justify-content: space-between;
-        }
-            .login{
-                display: flex;
-                justify-content: center;
-                width: 85px;
-                height: 45px;
-                background-color: #0080ff;
-                border-width: 1px;
-                border-color: royalblue;
-                border-style: solid;
-                align-items: center;
-                box-sizing: border-box;
-                margin-right: 10px;
-            }
-            .signup{
-                display: flex;
-                justify-content: center;
-                width: 95px;
-                height: 45px;
-                border-width: 1px;
-                border-color: #0080ff;
-                border-style: solid;
-                align-items: center;
-                box-sizing: border-box;
-               
-            }
-    
-    
-    .main{
-        display: flex;
-        height:100vh;
-        background: linear-gradient( 180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .code{
+      transition: color 0.3s;
     }
-        .first-main{
-            font-size: 4rem;
-            font-weight: 700;
-            margin: 0;
-        }
-        .second-main{
-            font-size: 2rem;
-            font-weight: 200;
-            color: black;
-        }
+    .p:hover .code{
+      color: orangered;
+    }
+.show{
+  box-sizing: border-box;
+  height: 50px;
+  width: 150px;
+  background-color: gray;
+  margin-top: 350px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show:hover{
+  background-color: red;
+}
+#page3{
+  height: 500px;
+  background: linear-gradient(180deg, #ffffff 0%, #6284ff 50%, #ff0000 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .first-page3{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 0;
+  }
+  .second-page3{
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .contact{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 650px;
+    margin-top: 40px;
+  }
+    .box3{
+      text-decoration: none;
+      color: white;
+      font-size: 25px;
+      text-shadow: 2px 2px 1px #1f1f1f;
+    }
+  .footer{
+    box-sizing: border-box;
+    background-color: black;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+  }
+    .first-footer{
+      box-sizing: border-box;
+      width:fit-content;
+      margin-left: 120px;
+      
+    }
+    .second-footer{
+      box-sizing: border-box;
+      width:fit-content;
+      margin-right: 120px;
+    }
+      .mindX-footer{
+        text-decoration: none;
+        color: white;
+      }
