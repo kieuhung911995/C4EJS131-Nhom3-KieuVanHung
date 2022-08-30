@@ -9,14 +9,16 @@ function color() {
   document.body.style.backgroundColor = random_color;
 }*/
 
-// BT1 (tự làm chưa chạy đc)
-/*let colors=['ping','red','blue','green','yellow','grey'];
+// BT1 (tự làm)
+let colors=['pink','red','blue','green','yellow','grey'];
 let i=0;
-document.getElementsByClassName('click')=function changeColor() {
-  if(i>=0 && i<colors.length)
-  {document.body.style.backgroundColor=colors[i]
-  i++}
-}*/
+document.getElementById('click').onclick=function changeColor() {
+  if(i<colors.length)
+  {document.body.style.backgroundColor=colors[i];
+  i++};
+  if(i>=colors.length)
+  {i=0;document.body.style.backgroundColor=colors[i];i++}
+}
 
 
 //BT2
