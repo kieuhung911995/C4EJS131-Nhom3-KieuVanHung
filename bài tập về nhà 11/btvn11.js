@@ -17,7 +17,7 @@ document.getElementById('click').onclick=function changeColor() {
   {document.body.style.backgroundColor=colors[i];
   i++};
   if(i>=colors.length)
-  {i=0;document.body.style.backgroundColor=colors[i];i++}
+  {i=0}
 }
 
 

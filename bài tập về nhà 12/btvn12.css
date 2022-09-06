@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .wrapper{
+        box-sizing: content-box;
+        width: 80%;
+        height: 90vh;
+        border-width: 5px;
+        border-color: black;
+        border-radius: 1px;
+        }
+        .header{
+            background-color: rgba(128, 128, 128, 0.548);
+            box-sizing: border-box;
+            height: 150px;
+            text-align: center;    
+            }
+            .list{
+                display: flex;
+                justify-content: space-between;
+                }
+                .delete{
+                    box-sizing: border-box;
+                    width: 60px;
+                    height: 30px;
+                    background-color: blueviolet;
+                    border-radius: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                }
+        .add-book{
+            display: flex;
+            justify-content: center;
+            }
+            .add{
+                box-sizing: border-box;
+                width: 60px;
+                height: 30px;
+                background-color: blueviolet;
+                color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                }
