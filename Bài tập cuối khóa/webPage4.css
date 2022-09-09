@@ -1,0 +1,77 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .danteLogo {
+    display: flex;
+    box-sizing: border-box;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    margin-left: 30px;
+  }
+  .menu-header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 75%;
+    margin-right: 40px;
+    list-style: none;
+  }
+  .items-menu-header {
+    text-decoration: none;
+    color: white;
+    font-family: "Catorze 27 Medium";
+  }
+  .image-page1 {
+    width: 100%;
+    height: 100vh;
+  }
+  .footer {
+    position: fixed;
+    top: 565px;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  .socialContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+    width: 8%;
+  }
+  .items-menu-footer {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+  }
+  .menu-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    box-sizing: border-box;
+    width: 80%;
+  }
+
+  
+  
