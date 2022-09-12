@@ -1,10 +1,25 @@
+body{
+  font-family: 'Cuprum', sans-serif;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 .header {
   position: fixed;
   top: 0;
   left: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 80px;
+  height: 10%;
   background-color: black;
   display: flex;
   flex-wrap: wrap;
@@ -18,29 +33,27 @@
   width: fit-content;
   text-decoration: none;
   color: white;
-  font-size: 50px;
-  margin-left: 30px;
+  font-size: 3rem;
+  margin-left: 2%;
 }
 .menu-header {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  width: 75%;
-  margin-right: 40px;
+  margin-right: 3%;
   list-style: none;
 }
 .items-menu-header {
   text-decoration: none;
   color: white;
-  font-family: "Catorze 27 Medium";
 }
 .footer {
   position: fixed;
-  top: 565px;
+  top: 90%;
   left: 0;
   box-sizing: border-box;
   width: 100%;
-  height: 60px;
+  height: 10%;
   background-color: black;
   display: flex;
   justify-content: space-between;
@@ -58,7 +71,7 @@
 .items-menu-footer {
   text-decoration: none;
   color: white;
-  font-size: 30px;
+  font-size: 2rem;
 }
 .menu-footer {
   display: flex;
@@ -94,9 +107,9 @@
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 50px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -110,8 +123,23 @@
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
-/* Thiết lập style cho nội dung của mỗi phần tử slideshow */
+/* thiết lập style  nút tròn điều khiển*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
 /* tạo hiệu ứng chuyển động fade */
 .fade {
   -webkit-animation-name: fade;
@@ -140,9 +168,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 50px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-top: 5%;
+  box-sizing: border-box;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .paragraph-page2 {
   display: flex;
@@ -151,9 +180,9 @@
   align-items: center;
   color: white;
   text-align: center;
-  word-spacing: 5px;
-  line-height: 20px;
-  margin-right: 50px;
+  word-spacing: 0.2rem;
+  line-height: 2rem;
+  margin-right: 5%;
 }
 .contact-page2 {
   color: white;
@@ -162,13 +191,11 @@
   color: rgb(43, 170, 43);
 }
 .image-page2 {
-  display: flex;
   box-sizing: border-box;
-  height: 750px;
-  width: 600px;
+  height: auto;
 }
 .page3 {
-  margin-top: 50px;
+  margin-top: 5%;
   background-image: url(DanteGmap.PNG);
   width: 100%;
   height: 100vh;
@@ -178,10 +205,10 @@
 }
 .Gmap-button {
   box-sizing: border-box;
-  width: 150px;
-  height: 30px;
+  width: 10%;
+  height: 5%;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-color: black;
   background-color: black;
   display: flex;
@@ -189,7 +216,7 @@
   align-items: center;
   text-decoration: none;
   color: white;
-  margin-top: 50px;
+  margin-top: 3%;
 }
 .Gmap-button:hover {
   color: black;
