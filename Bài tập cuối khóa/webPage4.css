@@ -189,11 +189,14 @@ body {
 }
 .flexContainer-page2 {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   margin-top: 5%;
   margin-left: 25%;
   margin-right: 25%;
+  width: 50%;
+  height: 50%;
 }
 .menu-unChoose {
   width: fit-content;
@@ -206,6 +209,7 @@ body {
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+  margin-top: 2%;
 }
 .menu-unChoose:hover {
   cursor: pointer;
@@ -225,24 +229,20 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-.flexTable-page2 {
-  display: flex;
-  justify-content: center;
-  margin-top: 5%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 10%;
-}
 .table-page2 {
   border-style: double;
   border-color: white;
   box-sizing: border-box;
-  width: fit-content;
   height: fit-content;
   color: white;
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+  margin-top: 5%;
+  margin-left: 13%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+  line-height: 2rem;
 }
 .menuTab-page2 {
   display: none;
