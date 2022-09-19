@@ -1,0 +1,319 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+/* Logo1 */
+.logo {
+    font-size: 60px;
+    flex-grow: 22;
+    font-family: Lucida Console;
+    margin-left: 30px;
+}
+
+.logo1 {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.container1 {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: black;
+    position: fixed;
+    top: 0%;
+}
+
+.the-a { 
+    font-size: 15px;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.items1 {
+    flex-grow: 1;
+    color: antiquewhite;
+    margin: 1px; 
+}
+/* Logo2 */
+.container2 {
+    background-image: url(https://images.getbento.com/accounts/e8eee6aef7c2e8242e267a82a199ac35/media/images/1823667943FilipWolak-TONY-Dante-7751.jpg?w=1200&fit=max&auto=compress,format) ;
+    background-size: 100%;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.items3 {
+    color: antiquewhite;
+    font-family: monospace;
+    font-size: 60px;
+}
+/* body1 */
+.container3 {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.items4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.items5 {
+    text-decoration: none;
+    border: 1px solid antiquewhite;
+    color: antiquewhite;
+    font-family: Lucida Console;
+    padding: 8px;
+    margin: 5px;
+}
+
+.items5:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.items5-1 {
+  background-color: white;
+  color: black;
+}
+
+.container6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.items6 {
+    color: antiquewhite;
+    font-family: Lucida Console;
+}
+
+.display1 {
+  display: none;
+}
+
+.container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: antiquewhite;
+    border: double 8px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.items7 {
+    
+}
+
+.items8 {
+    margin-top:1px ;
+}
+
+.container8 {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    position: fixed;
+    bottom: 0%;
+    background: black;
+    font-size: 17px;
+    font-family: monospace;
+}
+
+.items10 {
+    color: antiquewhite;
+    flex-grow: 1;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.items11 {
+    padding: 10px;
+    text-decoration: none; 
+    color: antiquewhite;
+}
+
+
+.items12 {
+    padding-right: 20px;
+}
+
+
+/* phần anh hưng */
+
+/*page1*/
+* {
+    box-sizing: border-box;
+  }
+  /* thiết lập style cho slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    max-height: 100vh;
+  }
+  .image-page1 {
+    width: 100%;
+    height: 100vh;
+  }
+  /* ẩn hình ảnh cho phần tử slideshow */
+  .mySlides {
+    display: none;
+  }
+  /* thiết kế nút mũi tên*/
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* thiết kế nút mũi tên next nằm phía bên phải */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+  /* thiết lập style  nút tròn điều khiển*/
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  /* tạo hiệu ứng chuyển động fade */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }/*page1*/
+* {
+  box-sizing: border-box;
+}
+/* thiết lập style cho slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  max-height: 100vh;
+}
+.image-page1 {
+  width: 100%;
+  height: 100vh;
+}
+/* ẩn hình ảnh cho phần tử slideshow */
+.mySlides {
+  display: none;
+}
+/* thiết kế nút mũi tên*/
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* thiết kế nút mũi tên next nằm phía bên phải */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+/* thiết lập style  nút tròn điều khiển*/
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+/* tạo hiệu ứng chuyển động fade */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
